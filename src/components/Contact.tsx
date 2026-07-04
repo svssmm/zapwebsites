@@ -15,13 +15,13 @@ export default function Contact({ instagram, email, phone, whishMoney }: Contact
     <section id="contact" className="py-24 px-6 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl -z-10" />
       
-      <div className="max-w-4xl mx-auto glass-panel p-12 rounded-[3rem] border border-purple-500/30">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-glow">Contact <span className="text-purple-500">Us</span></h2>
-          <p className="text-gray-400">Ready to start your project? Reach out through any of these channels.</p>
+      <div className="max-w-4xl mx-auto glass-panel p-6 md:p-12 rounded-[2rem] md:rounded-[3rem] border border-purple-500/30">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-glow">Contact <span className="text-purple-500">Us</span></h2>
+          <p className="text-gray-400 text-sm md:text-base">Ready to start your project? Reach out through any of these channels.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           <div className="space-y-6">
             <h3 className="text-2xl font-bold mb-6">Socials & Direct</h3>
             
